@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>  
+    <nav class="flex">
+      <div class="nav-left"></div>    
+
+      <div class="nav-right">
+        <button class="nav-btns" id="sign-up-btn">Sign Up</button>
+        <button class="nav-btns" id="sign-in-btn">Sign In</button>
+      </div>
+    </nav>
+
+    <div class="container flex">
+      <div class="welcome-box">
+        <h1>Welcome to Website</h1>
+      </div>
+
+      <div class="sign-up-form">
+        <div class="inner-box flex">
+          <h1>Sign Up</h1>
+
+          <div class="inner-2 flex">
+            <h2>Name</h2>
+            <input type="text" placeholder="Enter Name ..." autofocus="" />
+            <h2>Email</h2>
+            <input type="email" placeholder="Enter email ..." />
+            <h2>Password</h2>
+            <input type="password" placeholder="Enter Password ..." /> <br />
+            <button id="form-signup-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="sign-in-form">  
+        <div class="inner-box flex">
+          <h1>Sign In</h1>
+
+          <div class="inner-2 flex">
+            <h2>Email</h2>
+            <input type="email" placeholder="Enter Name ..." />
+            <h2>Password</h2>
+            <input type="password" placeholder="Enter Password ..." /> <br />
+            <button id="form-signin-btn">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
