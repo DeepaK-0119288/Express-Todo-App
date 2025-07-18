@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Deepak-0119288/SignUp-SignIn-Page--Express#readme",
+  "bugs": {
+    "url": "https://github.com/Deepak-0119288/SignUp-SignIn-Page--Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak-0119288/SignUp-SignIn-Page--Express.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
